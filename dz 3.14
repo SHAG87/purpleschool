@@ -1,6 +1,0 @@
-let count: UInt = 154
-
-let apples = count == 1 ? "яблоко" : (count % 2 == 0 ? "яблока" : "яблок")
-
-let result = "В корзине \(count) \(apples)"
-print(result)
