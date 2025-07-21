@@ -1,0 +1,17 @@
+let count = 21
+let lastDigit = count % 10
+let lastTwoDigits = count % 100
+
+let apples: String
+
+if (11...14).contains(lastTwoDigits) {
+    apples = "яблок"
+} else {
+    switch lastDigit {
+    case 1: apples = "яблоко"
+    case 2...4: apples = "яблока"
+    default: apples = "яблок"
+    }
+}
+let result = "В корзине \(count) \(apples)"
+print(result)
