@@ -1,0 +1,7 @@
+let appleWord: String
+switch count {
+case 1: appleWord = "яблоко"
+case 2...4: appleWord = "яблока"
+default: appleWord = "яблок"
+}
+print(result)
