@@ -2,7 +2,7 @@ let count = 21
 let lastDigit = count % 10
 let lastTwoDigits = count % 100
 
-let apple: String
+let apples: String
 
 if (11...14).contains(lastTwoDigits) {
     apples = "яблок"
