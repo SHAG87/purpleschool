@@ -1,7 +1,11 @@
-let appleWord: String
+let count = 1
+
+
+let apple: String
 switch count {
-case 1: appleWord = "яблоко"
-case 2...4: appleWord = "яблока"
-default: appleWord = "яблок"
+case 1: apple = "яблоко"
+case 2...4: apple = "яблока"
+default: apple = "яблок"
 }
+let result = "В корзине \(count) \(apples)"
 print(result)
